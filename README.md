@@ -26,7 +26,7 @@ Para rodar o projeto localmente, siga as instruções abaixo:
 Clone este repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/pnt-lista-de-tarefas.git
+git clone https://github.com/SEU_USUARIO/pnt-lista-de-tarefas.git ```
 
 
 ### 2. Instale as dependências
