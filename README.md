@@ -1,3 +1,4 @@
+
 # PNT - Lista de Tarefas
 
 ## Descrição
@@ -22,33 +23,22 @@ Clone este repositório para o seu ambiente local:
 
 ```bash
 git clone https://github.com/SEU_USUARIO/pnt-lista-de-tarefas.git
-2. Instale as dependências
+```
+
+### 2. Instale as dependências
 Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências:
 
-bash
-Sempre exibir os detalhes
-
-Copiar código
+```bash
 cd pnt-lista-de-tarefas
 npm install
-3. Executar o projeto
+```
+
+### 3. Executar o projeto
 Após a instalação das dependências, execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-bash
-Sempre exibir os detalhes
-
-Copiar código
+```bash
 npm start
-Licença
-Este projeto está disponível para uso livre. Você pode usá-lo, modificá-lo e distribuí-lo conforme necessário. """
+```
 
-Save the content to a markdown file
-file_path = '/mnt/data/PNT_Lista_de_Tarefas.md' with open(file_path, 'w') as file: file.write(content)
-
-file_path
-
-Sempre exibir os detalhes
-
-Copiar código
-Resultado
-'/mnt/data/PNT_Lista_de_Tarefas.md'
+### Licença
+Este projeto está disponível para uso livre. Você pode usá-lo, modificá-lo e distribuí-lo conforme necessário.
