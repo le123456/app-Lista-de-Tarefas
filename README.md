@@ -22,14 +22,14 @@ Para rodar o projeto localmente, siga as instruções abaixo:
 Clone este repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/pnt-lista-de-tarefas.git
+git clone https://github.com/le123456/app-Lista-de-Tarefas.git
 ```
 
 ### 2. Instale as dependências
 Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências:
 
 ```bash
-cd pnt-lista-de-tarefas
+cd app-Lista-de-Tarefa
 npm install
 ```
 
