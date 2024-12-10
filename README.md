@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# PNT - Lista de Tarefas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Descrição
 
-## Get started
+**PNT - Lista de Tarefas** é um aplicativo simples de gerenciamento de tarefas pessoais, desenvolvido com **React Native** e utilizando **Expo**. O app permite adicionar, visualizar e remover tarefas de forma prática e eficiente.
 
-1. Install dependencies
+### Funcionalidades
 
-   ```bash
-   npm install
-   ```
+- **Adicionar Tarefa**: O usuário pode adicionar novas tarefas.
+- **Visualizar Tarefas**: Exibição das tarefas adicionadas com um título simples.
+- **Deletar Tarefa**: O usuário pode remover tarefas clicando no ícone de menos.
+- **Interface Clean**: Design com imagem de fundo e ícones modernos da biblioteca **Ant Design**.
 
-2. Start the app
+## Tecnologias Utilizadas
 
-   ```bash
-    npx expo start
-   ```
+- **React Native**: Framework para desenvolvimento de aplicativos móveis nativos.
+- **Expo**: Ferramenta para facilitar o desenvolvimento e testes de aplicativos React Native.
+- **Ant Design**: Biblioteca de ícones para a interface.
 
-In the output, you'll find options to open the app in a
+## Instalação
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Para rodar o projeto localmente, siga as instruções abaixo:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 1. Clone o repositório
 
-## Get a fresh project
-
-When you're ready, run:
+Clone este repositório para o seu ambiente local:
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/SEU_USUARIO/pnt-lista-de-tarefas.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+2. Instale as dependências
+Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências:
 
-To learn more about developing your project with Expo, look at the following resources:
+bash
+Copiar código
+cd pnt-lista-de-tarefas
+npm install
+3. Inicie o projeto
+Agora, inicie o aplicativo com o Expo:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+bash
+Copiar código
+npm start
+Ou, caso você tenha o Expo CLI instalado, você pode rodar diretamente com:
 
-## Join the community
+bash
+Copiar código
+expo start
+Isso irá abrir o Expo Dev Tools no seu navegador e um QR code será exibido. Você pode escanear esse código com o aplicativo Expo Go no seu dispositivo para visualizar o app em tempo real.
 
-Join our community of developers creating universal apps.
+Estrutura de Arquivos
+App.js: O código principal do aplicativo, onde a lógica de gerenciamento de tarefas está localizada.
+resources/bg.jpg: Imagem de fundo utilizada no cabeçalho da tela principal.
+package.json: Contém as dependências e scripts do projeto.
+Como Contribuir
+Faça um fork deste repositório.
+Crie uma branch para a sua feature (git checkout -b minha-feature).
+Realize as alterações desejadas e faça o commit (git commit -am 'Adicionando uma nova feature').
+Faça o push para a sua branch (git push origin minha-feature).
+Abra um pull request explicando as modificações.
+Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+markdown
+Copiar código
+
+### Alterações principais:
+
+- **Formato de comandos**: Os comandos de terminal estão formatados corretamente com blocos de código.
+- **Clareza nas instruções**: Foi mantida uma sequência clara para instalação e execução do app.
+- **Contribuição**: Instruções para contribuir para o projeto foram incluídas de forma simples.
+- **Estrutura de arquivos**: A estrutura do projeto foi detalhada de forma resumida para facilitar o entendimento.
+
+Esse **README.md** está pronto para ser colocado no seu repositório GitHub. Ele é otimizado e contém 
